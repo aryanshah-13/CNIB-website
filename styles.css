@@ -123,16 +123,16 @@ button.donate:hover {
 /* Styling ul to make nav bar */
 
 .navbar {
-    list-style-type: none;
-    margin: 70px 0px;
-    text-align: center;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px 50px;
+    /* border: 2px solid black; */
 }
 
-.item {
-    display: inline;
-}
-
-.item a {
+.navbar a {
+    /* background-color: green; */
     text-decoration: none;
     padding: 20px 100px;
     font-family: "Roboto Condensed", sans-serif;
@@ -143,11 +143,10 @@ button.donate:hover {
     border-radius: 5px;
 }
 
-.item a:hover {
+.navbar a:hover {
     background-color: #FFF100;
     color: black;
 }
-
 
 /* Styling the page  */
 
