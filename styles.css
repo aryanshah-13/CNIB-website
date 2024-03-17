@@ -123,16 +123,13 @@ button.donate:hover {
 /* Styling ul to make nav bar */
 
 .navbar {
-    /* background-color: yellow; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 70px 50px;
-    /* border: 2px solid black; */
 }
 
 .navbar a {
-    /* background-color: green; */
     text-decoration: none;
     padding: 20px 100px;
     font-family: "Roboto Condensed", sans-serif;
